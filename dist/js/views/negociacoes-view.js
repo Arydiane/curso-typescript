@@ -1,7 +1,5 @@
-export class NeogciacoesView {
-    constructor(seletor) {
-        this.elemento = document.querySelector(seletor);
-    }
+import { View } from "./view.js";
+export class NeogciacoesView extends View {
     template(model) {
         return `
         <table class="table table-hover table-bordered">
@@ -26,10 +24,5 @@ export class NeogciacoesView {
             </tbody>
         </table>
         `;
-    }
-    update(model) {
-        const template = this.template(model);
-        console.log(template);
-        this.elemento.innerHTML = template;
     }
 }
