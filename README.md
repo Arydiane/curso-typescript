@@ -7,7 +7,7 @@ Curso de Typescript da Alura
 
 - Conheçer os recursos do TypeScript compiler
 - Modelar suas classes utilizando Typescript
-- Aprenda a utilizar tipos, modificadores, generics, interfaces, herança, enumerations e decorators
+- Aprender a utilizar tipos, modificadores, generics, interfaces, herança, enumerations e decorators
 
  ## 🔧 Tecnologias 
 
